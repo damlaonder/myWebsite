@@ -1,0 +1,91 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: rgb(245, 234, 220);
+}
+
+
+.logo{
+  font-size:35px;
+  font-weight: 100px;;
+  color: rgb(35, 35, 35);
+  display: inline-block;
+  float: left;
+  margin-left: 15px;
+  padding: 0px;
+}
+.nav-link{
+  display: inline-block;
+}
+
+.link{
+  color: rgb(35, 35, 35);
+  font-size: 24px;
+  font-weight: 100;
+  text-decoration: none;
+  margin-right: 50px;
+  padding-top: 15px;
+  position: relative;
+}
+
+#sidemenu{
+  text-align: end;
+  margin-top: 10px;
+}
+
+
+/* ------------------- content ---------------------- */
+.container{
+  margin: 8%;
+  border-right: solid;
+  border-left: solid;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 3%;
+  
+}
+.quick-info{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+.name{
+  border-bottom: solid;
+}
+.headshot{
+    width: 120px; 
+    height: 120px; 
+    border-radius: 10px;;
+    object-fit: cover;
+    object-position: 25% 25%; 
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.resume{
+  padding: 6px 5px 6px 5px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.deep-info{
+  display: inline-block;
+  width: 85%;
+  margin-left: 10px;
+}
+.info{
+  margin: 8px;
+}
+.jobs{
+  margin: 8px;
+}
+.skills{
+  margin:8px;
+}
+
