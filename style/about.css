@@ -50,21 +50,21 @@ body{
 }
 .quick-info{
   display: inline-block;
-  justify-content: center;
-  align-items: center;
 }
 .name{
   border-bottom: solid;
 }
 .headshot{
-    width: 120px; 
-    height: 120px; 
+    width: 130px; 
+    height: 130px; 
     border-radius: 10px;;
     object-fit: cover;
     object-position: 25% 25%; 
     display: block;
+    margin-top: 0px;
     margin-bottom: 10px;
     text-align: center;
+    border: solid thin;
 
 }
 
