@@ -20,6 +20,9 @@
 .nav-link{
   display: inline-block;
 }
+.nav-link a:hover{
+  color: #241B62;
+}
 
 .link{
   color: white;
