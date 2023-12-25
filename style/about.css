@@ -8,6 +8,10 @@ body{
   background-color: rgb(245, 234, 220);
 }
 
+p{
+  font-size: 18px;
+}
+
 
 .logo{
   font-size:35px;
@@ -40,15 +44,33 @@ body{
 
 /* ------------------- content ---------------------- */
 .container{
-  margin: 8%;
+  margin-left: 9%;
+  margin-right: 9%;
+  margin-top: 6%;
   border-right: solid;
   border-left: solid;
   padding-left: 3%;
   padding-right: 3%;
   padding-bottom: 3%;
+  display: inline-flex;
   
 }
 .quick-info{
+  display:inline-block;
+  margin-top: 2%;
+  margin-right: 1%;
+
+}
+
+.social-icons a{
+  text-decoration: none;
+  font-size: 30px;
+  margin: 8px 6px 0px 6px;
+  color: #241B62;
+  display: inline-block;
+  transition: transform 0.5s;
+}
+.skills{
   display: inline-block;
 }
 .name{
@@ -81,11 +103,10 @@ body{
 }
 .info{
   margin: 8px;
+
 }
+
 .jobs{
-  margin: 8px;
-}
-.skills{
-  margin:8px;
+  margin-top: 5px;
 }
 
