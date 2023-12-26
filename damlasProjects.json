@@ -9,6 +9,15 @@
   },
 
   {
+    "Image": "essentia.png",
+    "Title": "Essentia",
+    "Description": "Essentia is a collaborative project that I started working on within a competitive Tech Cohort (Tech Treks) at NYU. Our goal is to create a platform in with a user's favorite books and music. We decided to call it Essentia because 'essentia' means essence, substance, being, existing entity, whole. Our favorite books and music are parts of us - they are tools that we use to feel our emotions, to learn about ourselves and the world, and to capture our souls into something we understand... hence essentia.",
+    "Tools": "Python, HTML/CSS, Bootswatch, Flask, Postgres PSQL",
+    "Learned": "Basics of web development, how to connect psql datatable to html, collaboration",
+    "Github": "https://github.com/damlaonder/essentia_books"
+  },
+
+  {
     "Image": "skateclub.png",
     "Title": "Skate Club",
     "Description": "I've been a part of a climbing community in Long Island City in Queens, NY. This past summer(2023), a good friend of mine decided to start a skate club where people can to do something fun together at a local outdoor rink. He mentioned that it's hard to share club information because everyone uses a different platform. So I thought it would be cool to make a website for him that has all the information for easy access. My goal was to create/design a website where it is easy for people to learn how to join Skate Club.",
@@ -18,12 +27,12 @@
   },
 
   {
-    "Image": "essentia.png",
-    "Title": "Essentia",
-    "Description": "Essentia is a collaborative project that I started working on within a competitive Tech Cohort (Tech Treks) at NYU. Our goal is to create a platform in with a user's favorite books and music. We decided to call it Essentia because 'essentia' means essence, substance, being, existing entity, whole. Our favorite books and music are parts of us - they are tools that we use to feel our emotions, to learn about ourselves and the world, and to capture our souls into something we understand... hence essentia.",
-    "Tools": "Python, HTML/CSS, Bootswatch, Flask, Postgres PSQL",
-    "Learned": "Basics of web development, how to connect psql datatable to html, collaboration",
-    "Github": "https://github.com/damlaonder/essentia_books"
+    "Image": "bookishanalytics.png",
+    "Title": "Bookish Analytics",
+    "Description": "My goal with this project was to practice parsing and analyzing my GoodReads data with python and pandas. I explored how many pages I read each month in 2022 and 2023 and visualized this data using graphs. ",
+    "Tools": "Python, Pandas, Jupyter Notebooks",
+    "Learned": "Pandas, CSV Data Parsing, Data Visualization",
+    "Github": "https://github.com/damlaonder/goodreads-Data"
   },
 
   {
@@ -42,20 +51,12 @@
     "Learned": "Web development, how to display data from json file",
     "Github": "https://github.com/damlaonder/myWebsite"
   },
-  {
-    "Image": "bookishanalytics.png",
-    "Title": "Bookish Analytics",
-    "Description": "My goal with this project was to practice parsing and analyzing my GoodReads data with python and pandas. I explored how many pages I read each month in 2022 and 2023 and visualized this data using graphs. ",
-    "Tools": "Python, Pandas, Jupyter Notebooks",
-    "Learned": "Pandas, CSV Data Parsing, Data Visualization",
-    "Github": "https://github.com/damlaonder/goodreads-Data"
-  },
 
   {
     "Image": "firstWebsite.png",
     "Title": "My First Portfolio Website",
     "Description": "This was my first website that I made to display my projects and academic accomplishments. I was determined to use this as a tool to get more comfortable with web development and figuring out my stregnths and weaknesses. It was also the first project in which I learned how to use GitHub pages to host my site so that other users can also test it out.",
-    "Learned": "Basics of web development",
+    "Learned": "Basics of web development, javascript",
     "Github": "https://github.com/damlaonder/portfolio"
   }
 

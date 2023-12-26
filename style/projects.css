@@ -66,13 +66,18 @@ margin: 0% 10% 0% 10%;
 }
 
 .flip-card {
-  background-color: #D9D9D9;
+  background-color: #838EAA;
   width: 300px;
-  height: 300px;
+  height: 250px;
   margin: 10px;
   border-radius: 20px;
   display: inline-block;
   border: solid thin;
+  border-color: white;
+  transition: height 0.5s;
+}
+.flip-card:hover {
+  height: 300px;  /* Hovered height */
 }
 
 .flip-card-inner {
@@ -98,7 +103,6 @@ margin: 0% 10% 0% 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .flip-card img {
@@ -113,7 +117,7 @@ margin: 0% 10% 0% 10%;
   flex-direction: column;
   align-items: center;
 
-  background-color: #D9D9D9;
+  background-color: #838EAA;
   border-radius: 20px;;
 }
 
