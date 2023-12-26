@@ -24,7 +24,7 @@
     <script>
       const myProjectsContainer = document.getElementById('project-container');
       
-      fetch('damlasProjects.json')
+      fetch('/data/damlasProjects.json')
         .then(response => response.json())
         .then(projects => {
             projects.forEach(project => {

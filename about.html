@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Damla Onder</title>
-    <link rel="stylesheet" href="/style/about.css">
+    <link rel="stylesheet" href="/myWebsite/style/about.css">
     <script src="https://kit.fontawesome.com/d4202ddb56.js" crossorigin="anonymous"></script>
 
     
@@ -77,7 +77,7 @@
         const myBooksContainer = document.getElementById('my-books');
 
         // fetch JSON data
-        fetch('damlasBookshelf.json')
+        fetch('/data/damlasBookshelf.json')
             .then(response => response.json())
             .then(booksData => {
                 // for loop - go through each book object in json
