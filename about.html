@@ -10,21 +10,20 @@
 
   </head>
   <body>
-    <div class="about-color">
     <nav>
       <ul id="sidemenu">
         <p class="logo">dö</p>
         <li class="nav-link" ><a class="link" href="/index.html">home</a> </li>
-        <li class="nav-link"><a class="link" href="#projects">projects</a> </li>
-        <li class="nav-link"><a class="link" href="#work">work</a> </li>
-        <li class="nav-link"><a class="link" href="#contact">contact </a> </li>
+        <li class="nav-link"><a class="link" href="/projects.html">projects</a> </li>
+        <li class="nav-link"><a class="link" href="/contact.html">contact </a> </li>
       </ul>
     </nav>
-  </div>
+
+
   <div class="container">
     <div class="quick-info">
       <img class="headshot" src="/images/headshot.jpeg">
-      <button class="resume">Download Resume</button>
+      <a download class="button" href="/images/DamlaOnder_Resume.pdf" >Download Resume</a>
       <div class="social-icons">
         <a href="https://www.linkedin.com/in/damlaonder"><i class="fa-brands fa-linkedin"></i></a>
         <a href="https://github.com/damlaonder"><i class="fa-brands fa-github"></i></a>
@@ -66,13 +65,13 @@
 
       </div>
       <div class="name">
-        <p style="font-weight: 400px; margin-top: 14px; color: #2a2e32; width: 100%">damla's bookshelf of favorite books</p>
+        <p style="font-weight: 400px; margin-top: 14px; color: #2a2e32; width: 100%">my bookshelf of favorite books</p>
       </div>
       <div id="my-books">
           
 
       </div>
-      <a class="bookshelves-link" href="https://www.goodreads.com/review/list/143808771" target="_blank">click here to see all of my bookshelves</a>
+      <a class="bookshelves-link" href="https://www.goodreads.com/review/list/143808771?view=covers" target="_blank">click here to see all of my bookshelves</a>
       <script>
         // refernce to container div
         const myBooksContainer = document.getElementById('my-books');
@@ -97,7 +96,7 @@
 
                     // create an img element for the cover
                     const coverElement = document.createElement('img');
-                    coverElement.src = 'images/' + book.cover;
+                    coverElement.src = 'images/covers/' + book.cover;
                     coverElement.alt = book.Title + ' Cover'; 
 
                     // append elements to the book div

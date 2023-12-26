@@ -1,0 +1,62 @@
+[
+  {
+    "Image": "worldofbooks.png",
+    "Title": "World of Books",
+    "Description": "This is my first personal project. Using HTML and CSS, I designed mock landing pages filled with the books I have read/want to read/am currently reading. I started working on this project because, after teaching myself HTML and CSS over the summer of 2022, I wanted to strengthen my skills and start creating something. I chose to focus the project on books because, in my career, I want to find ways to use technology and CS skills to close the accessbility gap in books/education. I thought this project could be my start.",
+    "Tools": "HTML, CSS",
+    "Learned": "Basics of frontend development, UI/UX, HTML/CSS",
+    "Github": "https://github.com/damlaonder/worldofbooks"
+  },
+
+  {
+    "Image": "skateclub.png",
+    "Title": "Skate Club",
+    "Description": "I've been a part of a climbing community in Long Island City in Queens, NY. This past summer(2023), a good friend of mine decided to start a skate club where people can to do something fun together at a local outdoor rink. He mentioned that it's hard to share club information because everyone uses a different platform. So I thought it would be cool to make a website for him that has all the information for easy access. My goal was to create/design a website where it is easy for people to learn how to join Skate Club.",
+    "Tools": "HTML, CSS, Javascript, Google Sheets",
+    "Learned": "More frontend development, how to connect a google sheets API for live data management, collaboration, community engagement",
+    "Github": "https://github.com/damlaonder/skateclub"
+  },
+
+  {
+    "Image": "essentia.png",
+    "Title": "Essentia",
+    "Description": "Essentia is a collaborative project that I started working on within a competitive Tech Cohort (Tech Treks) at NYU. Our goal is to create a platform in with a user's favorite books and music. We decided to call it Essentia because 'essentia' means essence, substance, being, existing entity, whole. Our favorite books and music are parts of us - they are tools that we use to feel our emotions, to learn about ourselves and the world, and to capture our souls into something we understand... hence essentia.",
+    "Tools": "Python, HTML/CSS, Bootswatch, Flask, Postgres PSQL",
+    "Learned": "Basics of web development, how to connect psql datatable to html, collaboration",
+    "Github": "https://github.com/damlaonder/essentia_books"
+  },
+
+  {
+    "Image": "yagmur.png",
+    "Title": "Yagmur's Website",
+    "Description": "This is a website I designed for my sister, Yagmur. She is a mechanical engineer at Purdue University. When I started to teach myself how to design websites, she asked if I could could make her one that would showcase all of her academic projects and accomplishments so she could show recruiters what she is capable of. Together, we talked about what colors she wanted, what features were important to her (e.g. the correct turkish spelling of her name), and how she wanted it organized.",
+    "Tools": "HTML/CSS, Bootswatch, Javascript",
+    "Learned": "Basics of web development, collaboration",
+    "Github": "https://github.com/damlaonder/yagmur"
+  }, 
+  {
+    "Image": "mywebsite.png",
+    "Title": "This Website!",
+    "Description": "This is this website!! I created a portfolio website a couple months ago, but I was itching to make it better and to learn more.",
+    "Tools": "HTML/CSS, Javascript, JSON",
+    "Learned": "Web development, how to display data from json file",
+    "Github": "https://github.com/damlaonder/myWebsite"
+  },
+  {
+    "Image": "bookishanalytics.png",
+    "Title": "Bookish Analytics",
+    "Description": "My goal with this project was to practice parsing and analyzing my GoodReads data with python and pandas. I explored how many pages I read each month in 2022 and 2023 and visualized this data using graphs. ",
+    "Tools": "Python, Pandas, Jupyter Notebooks",
+    "Learned": "Pandas, CSV Data Parsing, Data Visualization",
+    "Github": "https://github.com/damlaonder/goodreads-Data"
+  },
+
+  {
+    "Image": "firstWebsite.png",
+    "Title": "My First Portfolio Website",
+    "Description": "This was my first website that I made to display my projects and academic accomplishments. I was determined to use this as a tool to get more comfortable with web development and figuring out my stregnths and weaknesses. It was also the first project in which I learned how to use GitHub pages to host my site so that other users can also test it out.",
+    "Learned": "Basics of web development",
+    "Github": "https://github.com/damlaonder/portfolio"
+  }
+
+]

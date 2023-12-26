@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Damla Onder</title>
+    <link rel="stylesheet" href="/style/projects.css">
+    <script src="https://kit.fontawesome.com/d4202ddb56.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav>
+      <ul id="sidemenu">
+        <p class="logo">dö</p>
+        <li class="nav-link" ><a class="link" href="/index.html">home</a> </li>
+        <li class="nav-link"><a class="link" href="/about.html">about</a> </li>
+        <li class="nav-link"><a class="link" href="/contact.html">contact </a> </li>
+      </ul>
+    </nav>
+    <h3 class="header">projects</h3>
+    <div class="project-container" id="project-container">
+
+    </div>
+
+      
+    <script>
+      const myProjectsContainer = document.getElementById('project-container');
+      
+      fetch('damlasProjects.json')
+        .then(response => response.json())
+        .then(projects => {
+            projects.forEach(project => {
+              const flipCard = document.createElement('div');
+              flipCard.classList.add('flip-card');
+
+              const flipCardInner = document.createElement('div');
+              flipCardInner.classList.add('flip-card-inner');
+
+              const flipCardFront = document.createElement('div');
+              flipCardFront.classList.add('flip-card-front');
+              const frontImage = document.createElement('img');
+              frontImage.src = 'images/projects/' + project.Image;
+              frontImage.alt = project.Title;
+              const frontTitle = document.createElement('h2');
+              frontTitle.textContent = project.Title;
+
+              flipCardFront.appendChild(frontImage);
+              flipCardFront.appendChild(frontTitle);
+
+              const flipCardBack = document.createElement('div');
+              flipCardBack.classList.add('flip-card-back');
+              const backDescription = document.createElement('p');
+              backDescription.textContent = project.Description;
+              const backLearned = document.createElement('p');
+              backLearned.textContent = `Learned: ${project.Learned}`;
+              const backTools = document.createElement('p');
+              backTools.textContent = `Tools: ${project.Tools}`;
+              const backGithub = document.createElement('a');
+              backGithub.href = project.Github;
+              backGithub.textContent = 'GitHub Repository';
+
+              flipCardBack.appendChild(backDescription);
+              flipCardBack.appendChild(backLearned);
+              flipCardBack.appendChild(backTools);
+              flipCardBack.appendChild(backGithub);
+
+              flipCardInner.appendChild(flipCardFront);
+              flipCardInner.appendChild(flipCardBack);
+
+              flipCard.appendChild(flipCardInner);
+
+              myProjectsContainer.appendChild(flipCard);
+            });
+          })
+          .catch(error => console.error('Error fetching JSON:', error));
+            </script>
+
+  </body>
+  </html>
