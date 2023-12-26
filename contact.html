@@ -16,11 +16,41 @@
           <li class="nav-link"><a class="link" href="/projects.html">projects</a> </li>
         </ul>
       </nav>
-      <div class="intro">
+      <div class="header">
+        <h1> contact</h1>
+        <p> damlaonder@nyu.edu</p>
+      </div>
+      <div class="containter">
+        <div class="contact-form">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+            <button class="submit-btn" type="submit">Submit</button>
+          </form>
+          <span id="msg"></span> 
+        </div>
+
 
       </div>
   
     </div>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwqL96ZHucboiIWbNLSsAx5viVvjmxDcuPzD32_oimACTB98GLpSgU-gWKTfkz46YHr/exec'
+      const form = document.forms['submit-to-google-sheet']
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = "MESSAGE SENT <3!"
+            setTimeout(function(){msg.innerHTML = ""},5000)
+            form.reset()
+
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
 
     
   </body>
