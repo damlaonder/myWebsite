@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="/style/about.css">
     <script src="https://kit.fontawesome.com/d4202ddb56.js" crossorigin="anonymous"></script>
 
+    
+
   </head>
   <body>
     <div class="about-color">
@@ -64,14 +66,56 @@
 
       </div>
       <div class="name">
-        <p style="font-weight: 400px; margin-top: 14px; color: #2a2e32; width: 100%">damla's bookshelf</p>
+        <p style="font-weight: 400px; margin-top: 14px; color: #2a2e32; width: 100%">damla's bookshelf of favorite books</p>
       </div>
-      <div class="my-books">
-          <i class="bi bi-book"></i>
+      <div id="my-books">
+          
 
-        </div>
+      </div>
+      <a class="bookshelves-link" href="https://www.goodreads.com/review/list/143808771" target="_blank">click here to see all of my bookshelves</a>
+      <script>
+        // refernce to container div
+        const myBooksContainer = document.getElementById('my-books');
+
+        // fetch JSON data
+        fetch('damlasBookshelf.json')
+            .then(response => response.json())
+            .then(booksData => {
+                // for loop - go through each book object in json
+                booksData.forEach(book => {
+                    // create a div element for each book
+                    const bookDiv = document.createElement('div');
+                    bookDiv.classList.add('book');
+
+                    // create an h2 element for the title
+                    const titleElement = document.createElement('h2');
+                    titleElement.textContent = book.Title;
+
+                    // create a p element for the author
+                    const authorElement = document.createElement('p');
+                    authorElement.textContent = book.Author;
+
+                    // create an img element for the cover
+                    const coverElement = document.createElement('img');
+                    coverElement.src = 'images/' + book.cover;
+                    coverElement.alt = book.Title + ' Cover'; 
+
+                    // append elements to the book div
+                    bookDiv.appendChild(coverElement);
+                    bookDiv.appendChild(titleElement);
+                    bookDiv.appendChild(authorElement);
+                    
+
+                    // append the book div to the container
+                    myBooksContainer.appendChild(bookDiv);
+                });
+            })
+            .catch(error => console.error('Error fetching JSON:', error));
+    </script>
+
       </div>
     </div>
+   
 
 
   </div>

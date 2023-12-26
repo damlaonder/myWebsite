@@ -139,7 +139,7 @@ button:hover{
 
 .deep-info{
   display: inline-block;
-  width: 85%;
+  width: 75%;
   margin-left: 10px;
 }
 .info{
@@ -152,6 +152,36 @@ button:hover{
 }
 
 /* ------------------- books ---------------------- */
-.my-books{
-  display: block;
+.my-books {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  
+}
+
+#my-books div {
+  text-align: center;
+  margin: 8px 0px 0px 4px;
+  display: inline-block;
+  width: 100px;
+  vertical-align: top; /* align books at the top */
+
+}
+#my-books img{
+  width: 80px;
+  height: 130px;
+}
+
+#my-books h2{
+  font-size: 12px;
+}
+#my-books p{
+  font-size: 10px;
+}
+
+.bookshelves-link a{
+  color:#241B62;
+  font-size: 12px;
+  margin-top: 10px;
 }
