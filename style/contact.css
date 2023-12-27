@@ -131,7 +131,7 @@ form input, form textarea{
     position: relative;
   }
   .contact-form{
-    flex-basis: 60%;
+    flex-basis: 50%;
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 1%;
