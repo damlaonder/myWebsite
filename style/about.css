@@ -236,7 +236,7 @@ button:hover{
 
   #my-books div {
     text-align: center;
-    margin: 4px 3px 0px 3px;
+    margin: 4px 6px 0px 6px;
     display: inline-block;
     width: 70px;
     vertical-align: top; /* align books at the top */
