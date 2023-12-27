@@ -193,7 +193,7 @@ button:hover{
   margin-top: 10px;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 450px){
   #sidemenu a{
     font-size:24px;
   }
