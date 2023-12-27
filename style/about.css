@@ -236,18 +236,13 @@ button:hover{
 
   #my-books div {
     text-align: center;
-    margin: 2%;
+    margin: 3%;
     display: inline-block;
     width: 80px;
     vertical-align: top; /* align books at the top */
   
   }
 
-  
-
-
-
-  
 
 }
 
