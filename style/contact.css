@@ -106,3 +106,34 @@ form input, form textarea{
   font-weight: bolder;
   font-size: 20px;
 }
+
+@media only screen and (max-width: 600px){
+  .intro{
+    margin-top: 40%;
+  }
+
+
+  #sidemenu a{
+    font-size:24px;
+  }
+  #sidemenu p{
+    font-size:24px;
+    color: white;
+  }
+
+  .link{
+    color: white;
+    font-size: 24px;
+    font-weight: 100;
+    text-decoration: none;
+    margin-right: 20px;
+    padding-top: 15px;
+    position: relative;
+  }
+  .contact-form{
+    flex-basis: 60%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 1%;
+  }
+}

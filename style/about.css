@@ -192,3 +192,62 @@ button:hover{
   font-size: 12px;
   margin-top: 10px;
 }
+
+@media only screen and (max-width: 600px){
+  #sidemenu a{
+    font-size:24px;
+  }
+  #sidemenu p{
+    font-size:24px;
+  }
+
+  .link{
+    font-size: 24px;
+    font-weight: 100;
+    text-decoration: none;
+    margin-right: 20px;
+    padding-top: 15px;
+    position: relative;
+  }
+
+  .container{
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 3%;
+  
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 3%;
+    display: block;
+    text-align: center;
+  }
+
+  .name{
+    text-align: start;
+  }
+  .deep-info{
+    text-align: start;
+  }
+
+  .headshot{
+    width: 150px; 
+    height: 150px; 
+  }
+
+  #my-books div {
+    text-align: center;
+    margin: 4px 8px 0px 8px;
+    display: inline-block;
+    width: 80px;
+    vertical-align: top; /* align books at the top */
+  
+  }
+
+  
+
+
+
+  
+
+}
+
