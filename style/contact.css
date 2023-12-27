@@ -136,4 +136,7 @@ form input, form textarea{
     margin-right: 15%;
     margin-top: 1%;
   }
+  .submit-btn{
+    background-color: grey;
+  }
 }
