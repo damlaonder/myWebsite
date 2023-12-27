@@ -13,17 +13,17 @@
     <nav>
       <ul id="sidemenu">
         <p class="logo">dö</p>
-        <li class="nav-link" ><a class="link" href="/index.html">home</a> </li>
-        <li class="nav-link"><a class="link" href="/projects.html">projects</a> </li>
-        <li class="nav-link"><a class="link" href="/contact.html">contact </a> </li>
+        <li class="nav-link" ><a class="link" href="/myWebsite/index.html">home</a> </li>
+        <li class="nav-link"><a class="link" href="/myWebsite/projects.html">projects</a> </li>
+        <li class="nav-link"><a class="link" href="/myWebsite/contact.html">contact </a> </li>
       </ul>
     </nav>
 
 
   <div class="container">
     <div class="quick-info">
-      <img class="headshot" src="/images/headshot.jpeg">
-      <a download class="button" href="/images/OnderDamla_Resume.pdf" >Download Resume</a>
+      <img class="headshot" src="/myWebsite/images/headshot.jpeg">
+      <a download class="button" href="/myWebsite/images/OnderDamla_Resume.pdf" >Download Resume</a>
       <div class="social-icons">
         <a href="https://www.linkedin.com/in/damlaonder"><i class="fa-brands fa-linkedin"></i></a>
         <a href="https://github.com/damlaonder"><i class="fa-brands fa-github"></i></a>
@@ -77,7 +77,7 @@
         const myBooksContainer = document.getElementById('my-books');
 
         // fetch JSON data
-        fetch('/data/damlasBookshelf.json')
+        fetch('/myWebsite/data/damlasBookshelf.json')
             .then(response => response.json())
             .then(booksData => {
                 // for loop - go through each book object in json
@@ -96,7 +96,7 @@
 
                     // create an img element for the cover
                     const coverElement = document.createElement('img');
-                    coverElement.src = 'images/covers/' + book.cover;
+                    coverElement.src = '/myWebsite/images/covers/' + book.cover;
                     coverElement.alt = book.Title + ' Cover'; 
 
                     // append elements to the book div
